@@ -1,0 +1,131 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    border-color:1px solid black;
+}
+.leftbox{background-color: rgba(78, 76, 77, 0.185);
+    width:350px;
+    padding:70px;
+
+}
+.imgs{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+}
+.rightbox{
+    width:100px;
+}
+.name-con{
+    /*border:10px solid black;*/
+    margin-top: 70px;
+}
+.name-con>h2
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    padding-left:20px;
+    font-size: 50px;
+}
+.name-con>h5{
+    padding-left:20px;
+    font-size: 20px;
+}
+.contact>h4{
+    background-color: white;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+.contact-subcon{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.educat h4{
+    background-color: white;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+.stu>h6{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stu2>h6{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stu3>h6{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill>h4{
+    background-color: white;
+    padding: 10px;
+    margin-top:20px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+.skill-con{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.work{
+    width:500px;
+    margin-left:50px;
+}
+.exp{
+    font-size:28px;
+}
+.job{
+    background-color: rgb(201,196,196);
+    padding:1px;
+}
+.year{
+    margin-left: 200px;
+}
+.job2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ref{
+    max-width: 1000px;
+    margin-left: 50px;
+    text-align: center;
+}
+.ref h2{
+    font-size: 24px;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 20px;
+}
+.ref-container{
+    display: flex;
+    background: #e4e4e4;
+    border-radius: 4px;
+}
+.ref-con{
+    flex:1;
+    padding:20px;
+    background-color: #e4e4e4;
+    text-align: left;
+}
+.divider{
+    width:10px;
+    background-color: #d33a2f;
+}
